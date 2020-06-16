@@ -1,3 +1,6 @@
 
 .vscode/settings.json
 sass/styles.sass
+.idea/*
+
+
