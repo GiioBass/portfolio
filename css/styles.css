@@ -51,7 +51,7 @@
   width: 100%;
   height: 33%;
   display: flex;
-  align-items: center;
+  align-items: startgit;
 }
 .main .page2 .contentTitle .title {
   width: 45%;
@@ -78,11 +78,14 @@
 }
 .main .page2 .contentDescrip .description {
   width: 43%;
-  height: 65%;
+  height: 100%;
   margin-right: 4em;
   font-size: 1.5em;
   font-family: "norwester";
   color: #ffffff;
+}
+.main .page2 .contentDescrip .description p {
+  margin-top: 0;
 }
 .main .page2 .contentIcons {
   width: 100%;
@@ -96,10 +99,15 @@
   margin-left: 7em;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .main .page2 .contentIcons .icons img {
   height: 6em;
   width: 6em;
+}
+.main .page2 .contentIcons .icons .db {
+  width: 4em;
+  height: 4em;
 }
 .main .page4 {
   width: 100%;
