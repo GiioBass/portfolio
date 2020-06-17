@@ -194,5 +194,27 @@
     height: 50%;
   }
 }
+@media (max-width: 425px) {
+  .main .page1 {
+    height: 40em;
+    flex-direction: column;
+  }
+  .main .page1 .page1__personal {
+    margin-left: 2em;
+    margin-top: -1em;
+    width: 90%;
+    height: 22%;
+  }
+  .main .page1 .page1__personal .personal--name {
+    font-size: 3em;
+  }
+  .main .page1 .page1__personal .personal--subTitle {
+    font-size: 1em;
+  }
+  .main .page1 .page1__image {
+    width: 85%;
+    height: 50%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
