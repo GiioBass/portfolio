@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "norwester";
+  src: url(../font/norwester/norwester.otf);
+}
+.main {
+  width: 100vw;
+  height: 88em;
+}
+.main .page1 {
+  width: 100%;
+  height: 44em;
+  background: #360000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main .page1 .page1__personal {
+  width: 40%;
+  height: 65%;
+  margin-left: 5em;
+}
+.main .page1 .page1__personal .personal--name {
+  font-size: 7em;
+  font-family: "norwester";
+  letter-spacing: 0.1em;
+  margin: 0;
+  color: #ffffff;
+}
+.main .page1 .page1__personal .personal--subTitle {
+  font-size: 2em;
+  font-family: "norwester";
+  color: #ffffff;
+}
+.main .page1 .page1__image {
+  width: 35%;
+  height: 80%;
+}
+.main .page1 .page1__image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.main .page2 {
+  width: 100%;
+  height: 44em;
+  background: #360000;
+  display: flex;
+  flex-direction: column;
+}
+.main .page2 .contentTitle {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  align-items: start;
+}
+.main .page2 .contentTitle .title {
+  width: 45%;
+  height: 75%;
+  margin-left: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #767070;
+  font-size: 3em;
+  font-family: "norwester";
+  color: #ffffff;
+}
+.main .page2 .contentTitle .title h1 {
+  margin: 0;
+}
+.main .page2 .contentDescrip {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.main .page2 .contentDescrip .description {
+  width: 43%;
+  height: 100%;
+  margin-right: 4em;
+  font-size: 1.5em;
+  font-family: "norwester";
+  color: #ffffff;
+}
+.main .page2 .contentDescrip .description p {
+  margin-top: 0;
+}
+.main .page2 .contentIcons {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  align-items: center;
+}
+.main .page2 .contentIcons .icons {
+  width: 55%;
+  height: 55%;
+  margin-left: 7em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main .page2 .contentIcons .icons img {
+  height: 6em;
+  width: 6em;
+}
+.main .page2 .contentIcons .icons .db {
+  width: 4em;
+  height: 4em;
+}
+.main .page4 {
+  width: 100%;
+  height: 44em;
+  background: #360000;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.main .page4 .contentContact {
+  width: 50%;
+  height: 90%;
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+}
+.main .page4 .contentContact .contact {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "norwester";
+  font-size: 3em;
+}
+.main .page4 .contentContact .contact h2 {
+  margin: 0;
+}
+.main .page4 .contentContact .socialMedia {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .page4 .contentContact .socialMedia .media {
+  width: 50%;
+  height: 20%;
+  display: flex;
+}
+.main .page4 .contentContact .socialMedia .media .mediaImg {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.main .page4 .contentContact .socialMedia .media .mediaImg img {
+  width: 70%;
+  height: 70%;
+}
+.main .page4 .contentContact .socialMedia .media .mediaInfo {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "norwester";
+  color: #ffffff;
+  font-size: 1.5em;
+}
+.main .page4 .contentContact .socialMedia .media .mediaInfo a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media (max-width: 320px) {
+  .main .page1 {
+    height: 40em;
+    flex-direction: column;
+  }
+  .main .page1 .page1__personal {
+    margin-left: 2em;
+    margin-top: -1em;
+    width: 90%;
+    height: 22%;
+  }
+  .main .page1 .page1__personal .personal--name {
+    font-size: 3em;
+  }
+  .main .page1 .page1__personal .personal--subTitle {
+    font-size: 1em;
+  }
+  .main .page1 .page1__image {
+    width: 85%;
+    height: 50%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
