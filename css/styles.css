@@ -172,7 +172,7 @@
   color: #ffffff;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   body {
     background: red;
   }
@@ -194,8 +194,14 @@
     font-size: 1em;
   }
   .main .page1 .page1__image {
-    width: 85%;
+    width: 80%;
     height: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .main .page1 .page1__image img {
+    width: 16em;
+    height: 20em;
   }
   .main .page2 {
     height: 40em;
@@ -306,8 +312,8 @@
     align-items: center;
   }
   .main .page4 .contentContact .socialMedia .media .mediaImg img {
-    width: 60%;
-    height: 55%;
+    width: 2em;
+    height: 2em;
   }
   .main .page4 .contentContact .socialMedia .media .mediaInfo {
     width: 70%;
@@ -315,6 +321,161 @@
     display: flex;
     align-items: center;
     font-size: 0.8em;
+  }
+  .main .page4 .contentContact .socialMedia .media .mediaInfo a {
+    text-decoration: none;
+  }
+}
+@media (min-width: 426px) and (max-width: 767.98px) {
+  body {
+    background: red;
+  }
+
+  .main .page1 {
+    height: 40em;
+    flex-direction: column;
+  }
+  .main .page1 .page1__personal {
+    margin-left: 0;
+    margin-top: -1em;
+    width: 16em;
+    height: 33%;
+  }
+  .main .page1 .page1__personal .personal--name {
+    font-size: 3.5em;
+  }
+  .main .page1 .page1__personal .personal--subTitle {
+    font-size: 1em;
+  }
+  .main .page1 .page1__image {
+    width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .main .page1 .page1__image img {
+    width: 16em;
+    height: 20em;
+  }
+  .main .page2 {
+    height: 40em;
+    display: flex;
+    flex-direction: column;
+  }
+  .main .page2 .contentTitle {
+    width: 100%;
+    height: 20%;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+  }
+  .main .page2 .contentTitle .title {
+    width: 70%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1em;
+  }
+  .main .page2 .contentTitle .title h1 {
+    margin: 0;
+  }
+  .main .page2 .contentDescrip {
+    width: 100%;
+    height: 40%;
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+  }
+  .main .page2 .contentDescrip .description {
+    width: 80%;
+    height: 100%;
+    font-size: 1.3em;
+    display: flex;
+    margin: 0;
+  }
+  .main .page2 .contentDescrip .description p {
+    margin-top: 0;
+  }
+  .main .page2 .contentIcons {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .page2 .contentIcons .icons {
+    width: 90%;
+    height: 55%;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .main .page2 .contentIcons .icons img {
+    height: 2em;
+    width: 2em;
+  }
+  .main .page2 .contentIcons .icons .db {
+    width: 2em;
+    height: 2em;
+  }
+  .main .page4 {
+    width: 100%;
+    height: 33em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .main .page4 .contentContact {
+    width: 80%;
+    height: 90%;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .page4 .contentContact .contact {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+  }
+  .main .page4 .contentContact .contact h2 {
+    margin: 0;
+  }
+  .main .page4 .contentContact .socialMedia {
+    width: 80%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .page4 .contentContact .socialMedia .media {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    margin-top: 2em;
+  }
+  .main .page4 .contentContact .socialMedia .media .mediaImg {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .main .page4 .contentContact .socialMedia .media .mediaImg img {
+    width: 2em;
+    height: 2em;
+  }
+  .main .page4 .contentContact .socialMedia .media .mediaInfo {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
   }
   .main .page4 .contentContact .socialMedia .media .mediaInfo a {
     text-decoration: none;
